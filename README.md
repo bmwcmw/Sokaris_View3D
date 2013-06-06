@@ -1,3 +1,8 @@
-# Sokaris 3D Gaze Viewer
+Sokaris 3D Gaze Viewer
+=======
+Voilà.
+[Projet principal](https://github.com/garnierclement/sokaris)
 
-## Voilà. 2013 4TC INSA de Lyon 
+Projet PI - INSA - Département Télécom
+
+Création avril 2013
