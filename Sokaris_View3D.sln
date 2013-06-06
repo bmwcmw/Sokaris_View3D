@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sokaris_View3D", "Sokaris_View3D\Sokaris_View3D.vcxproj", "{216BD65F-482D-46E7-92F9-85D39728E75F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sokaris_Gaze_Mock_Writer", "Sokaris_Gaze_Mock_Writer\Sokaris_Gaze_Mock_Writer.vcxproj", "{95EC574A-2FA6-4A5E-8947-FCA8365B6B08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216BD65F-482D-46E7-92F9-85D39728E75F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{216BD65F-482D-46E7-92F9-85D39728E75F}.Debug|Win32.Build.0 = Debug|Win32
+		{216BD65F-482D-46E7-92F9-85D39728E75F}.Release|Win32.ActiveCfg = Release|Win32
+		{216BD65F-482D-46E7-92F9-85D39728E75F}.Release|Win32.Build.0 = Release|Win32
+		{95EC574A-2FA6-4A5E-8947-FCA8365B6B08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95EC574A-2FA6-4A5E-8947-FCA8365B6B08}.Debug|Win32.Build.0 = Debug|Win32
+		{95EC574A-2FA6-4A5E-8947-FCA8365B6B08}.Release|Win32.ActiveCfg = Release|Win32
+		{95EC574A-2FA6-4A5E-8947-FCA8365B6B08}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
