@@ -18,7 +18,13 @@
 #include <sstream>
 #include <ctime>
 
+#include <stdlib.h>
+#include <math.h>
+
 using namespace std;
 
 
 // TODO: reference additional headers your program requires here
+double gaussrand();
+
+double gaussLimited(double max, double min);

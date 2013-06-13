@@ -9,6 +9,7 @@ void chargerTextures();
 void dessinerScene();
 
 void build3DResult(vector<Plane> vP);
+void build3DResult2(vector<Plane> vP);
 void drawGazes(vector<Intersection> vI);
 
 #endif //SCENE_H

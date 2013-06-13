@@ -19,9 +19,11 @@
 #include "freeflycamera.h"
 #include "scene.h"
 
+#include <SDL_syswm.h>
+
 #define FPS 50
-#define LARGEUR_FENETRE 1280
-#define HAUTEUR_FENETRE 720
+#define LARGEUR_FENETRE 960
+#define HAUTEUR_FENETRE 600
 
 #define _USE_MATH_DEFINES
 
@@ -50,6 +52,8 @@ int main(int argc, char *argv[])
 	atexit(stop);
 
 	SDL_WM_SetCaption("Sokaris - GL Result Viewer", NULL);
+
+
 	SDL_SetVideoMode(width, height, 32, SDL_OPENGL);
 	//initFullScreen(&width,&height);
 
@@ -63,6 +67,8 @@ int main(int argc, char *argv[])
 	chargerTextures();
 
 	camera = new FreeFlyCamera(Vector3D(0,0,2));
+
+	//system("D:\\DEV\\GitHub\\Sokaris_View3D\\Debug\\Sokaris_Gaze_Mock_Writer.exe");
 
 	last_time = SDL_GetTicks();
 	for (;;)
@@ -201,4 +207,3 @@ void DrawGL()
 	glFlush();
 	SDL_GL_SwapBuffers();
 }
-
