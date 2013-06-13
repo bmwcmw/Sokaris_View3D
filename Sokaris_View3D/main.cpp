@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
 
 
 	SDL_SetVideoMode(width, height, 32, SDL_OPENGL);
-	//initFullScreen(&width,&height);
+	initFullScreen(&width,&height);
 
 	glMatrixMode( GL_PROJECTION );
 	glLoadIdentity( );

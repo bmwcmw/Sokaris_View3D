@@ -11,7 +11,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	printf(" ************************************************ \n");
 	printf(" ************************************************ \n");
-	printf(" ****    Sokaris - Gaze mock writer 0.0.1    **** \n");
+	printf(" ****    Sokaris - Gaze mock writer 0.0.3    **** \n");
 	printf(" ************************************************ \n");
 	printf(" ************************************************ \n\n");
 	cout << "Emplacement du fichier mock : " << filename << "\n\n";

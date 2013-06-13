@@ -63,7 +63,7 @@ void dessinerScene()
 	prepareScene();
 	build3DResult(readPlanesFromFile("./Planes_SalleTP.ini"));
 	build3DResult2(readPlanesFromFile("./Planes_SalleTPHeat.ini"));
-	drawGazes(readIntersectionsFromFile("./Intersections.ini"));
+	//drawGazes(readIntersectionsFromFile("./Intersections.ini"));
 }
 
 
